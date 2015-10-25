@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="static/content/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
-
 <body>
 	<div class = "container">
 		<div class="row" id="top">
@@ -19,24 +18,10 @@
 		<div id="bottom" class="row">
 			<div class="col-md-4 col-md-offset-4 text-center"><img src="imgs/breadAndLettuceBottom.png"></div>
 		</div>
-		
-		
-		
-		
-
-			
 		<div class="col-md-4 col-md-offset-4 text-center" id="buttonLayer">
 			<button class="btn btn-danger" id="button">Pile on the Bacon</button>
 		</div>
-	
-	
-	
-	
 	</div>
-	
-	
-	
-	
     <script src="static/scripts/jquery-2.1.4.min.js"></script>
     <script src="static/scripts/bootstrap.min.js"></script>
 	<script>
@@ -47,7 +32,13 @@
 				bacons[0] = '<img class="change" src="imgs/10-0bacon.png">';
 				bacons[1] = '<img class="change" src="imgs/10-1bacon.png">';
 				bacons[2] = '<img class="change" src="imgs/10-2bacon.png">';
-				bacons[3] = '<img class="change" src="imgs/10-3bacon.png">';								bacons[4] = '<img class="change" src="imgs/10-4bacon.png">';				bacons[5] = '<img class="change" src="imgs/10-5bacon.png">';				bacons[6] = '<img class="change" src="imgs/10-6bacon.png">';				bacons[7] = '<img class="change" src="imgs/10-7bacon.png">';								bacons[8] = '<img class="change" src="imgs/10-8bacon.png">';				bacons[9] = '<img class="change" src="imgs/10-9bacon.png">';								
+				bacons[3] = '<img class="change" src="imgs/10-3bacon.png">';
+				bacons[4] = '<img class="change" src="imgs/10-4bacon.png">';
+				bacons[5] = '<img class="change" src="imgs/10-5bacon.png">';
+				bacons[6] = '<img class="change" src="imgs/10-6bacon.png">';
+				bacons[7] = '<img class="change" src="imgs/10-7bacon.png">';
+				bacons[8] = '<img class="change" src="imgs/10-8bacon.png">';
+				bacons[9] = '<img class="change" src="imgs/10-9bacon.png">';								
 				$('img.change').replaceWith(bacons[i]);
 				if (i == 9){
 					i = 0;
